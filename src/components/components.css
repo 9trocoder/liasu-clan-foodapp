@@ -183,6 +183,7 @@
   overflow-x: scroll;
   gap: 16px;
   padding-left: 16px;
+  padding-right: 16px;
   overflow-x: scroll;
   -ms-overflow-style: none;
   scrollbar-width: none;
