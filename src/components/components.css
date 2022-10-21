@@ -181,7 +181,7 @@
 .foodtray__cnt {
   display: flex;
   overflow-x: scroll;
-  gap: 16px;
+  gap: 20px;
   padding-left: 16px;
   padding-right: 16px;
   overflow-x: scroll;
