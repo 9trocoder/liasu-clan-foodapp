@@ -43,6 +43,7 @@ function Homepage() {
         </div>
       </div>
       <FoodTray suggestion="Suggestions for you" suggestionlabel="Nigeria Food" />
+      <FoodTray suggestion="Suggestions for you" suggestionlabel="Nigeria Food" />
       <BottomNav
         homeIcon={homeActive}
         foodIcon={foodNotActive}
