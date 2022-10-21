@@ -12,6 +12,7 @@ function LoginPage() {
         <div className="loginpage__forgotpassword">
             <p className="loginpage__forgot-pass">Forgot Password?</p>
         </div>
+        <button className="general__btn">Sign In</button>
     </div>
   )
 }
