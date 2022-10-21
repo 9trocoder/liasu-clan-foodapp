@@ -36,7 +36,7 @@ function FoodTray({ suggestion, suggestionlabel }) {
             src="https://images.unsplash.com/photo-1629606600908-a51ec6c44fdd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=736&q=80"
             alt=""
           />
-          <p className="foodtray__title">Fried Rice</p>
+          <p className="foodtray__title">Beans and Bread</p>
           <p className="foodtray__paragraph">
             A delicious fried rice food from Nigeria.
           </p>
