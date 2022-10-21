@@ -1,6 +1,6 @@
 import React from 'react'
 import Input from '../../components/input'
-import { email, password } from '../../utility/tools'
+import { email, facebook, password } from '../../utility/tools'
 import "./LoginPage.css"
 
 function LoginPage() {
@@ -13,6 +13,7 @@ function LoginPage() {
             <p className="loginpage__forgot-pass">Forgot Password?</p>
         </div>
         <button className="general__btn">Sign In</button>
+        <button className="social__signin">{facebook} Sign up with Facebook</button>
     </div>
   )
 }

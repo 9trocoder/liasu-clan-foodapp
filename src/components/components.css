@@ -53,8 +53,24 @@
     border: none;
     font-family: inherit;
     font-size: 12px;
-    font-weight: 700;
+    font-weight: 500;
     color: #111111;
     background-color: #F2A500;
     border-radius: 8px;
+}
+
+.social__signin {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    height: 45px;
+    font-family: inherit;
+    font-weight: 500;
+    background-color: transparent;
+    border: 1px solid #111;
+    border-radius: 8px;
+    margin-top: 1.5rem;
+    font-size: 12px;
 }
