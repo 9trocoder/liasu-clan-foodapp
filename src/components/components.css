@@ -178,3 +178,21 @@
     font-weight: 500;
     color: #757575;
 }
+
+.foodtray__cnt {
+    display: flex;
+    overflow-x: scroll;
+    gap: 16px;
+
+}
+
+.foodtray__cnt-items {
+    width: 200px;
+}
+
+.foodtray__cnt-items img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
