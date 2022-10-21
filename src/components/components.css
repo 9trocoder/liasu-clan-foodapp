@@ -232,3 +232,30 @@
 .foodtray__bottom-item p {
   font-size: 11px;
 }
+
+
+/* Extra nav */
+.extranav__cnt {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 16px;
+    gap: 14px;
+    border-bottom: 0.1px solid rgba(63, 62, 62, 0.315);
+    background-color: #fff;
+}
+.backicon {
+    cursor: pointer;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.backicon p {
+    font-size: 11px;
+    font-weight: 600;
+}

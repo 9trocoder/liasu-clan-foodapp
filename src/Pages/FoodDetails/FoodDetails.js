@@ -1,8 +1,12 @@
 import React from 'react'
+import Extranav from '../../components/Extranav'
+import { heart } from '../../utility/tools'
 
 function FoodDetails() {
   return (
-    <div>FoodDetails</div>
+    <>
+    <Extranav pageName="Food Details" pageIcon={heart} />
+    </>
   )
 }
 
