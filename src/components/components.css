@@ -194,11 +194,11 @@
 }
 
 .foodtray__cnt-items {
-  width: 200px;
+  width: 220px;
 }
 
 .foodtray__cnt-items img {
-  width: 200px;
+  width: 220px;
   height: 100px;
   object-fit: cover;
   border-radius: 5px;
