@@ -158,3 +158,23 @@
 .homenav input:focus {
   background-color: #fff;
 }
+
+/* Food Tray */
+.suggestion__cnt {
+  padding: 16px 16px;
+  margin-top: 16px;
+  display: flex;
+  gap: .4rem;
+}
+
+
+.suggestion {
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.suggestionlabel {
+    font-size: 11px;
+    font-weight: 500;
+    color: #757575;
+}
