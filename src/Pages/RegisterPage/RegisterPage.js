@@ -1,15 +1,16 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import Input from "../../components/input";
 import {
   data,
   email,
   facebook,
-  information,
   password,
   phone,
 } from "../../utility/tools";
 
 function RegisterPage() {
+    let navigate = useNavigate();
   return (
     <div className="loginpage__cnt">
       <p className="loginpage__title">
@@ -25,7 +26,7 @@ function RegisterPage() {
       <button className="social__signin">
         {facebook} Sign up with Facebook
       </button>
-      <div className="donthaveaccount">
+      <div onClick={() => navigate("/")} className="donthaveaccount">
         <p>
           Already have an account? <span> Login</span>
         </p>
