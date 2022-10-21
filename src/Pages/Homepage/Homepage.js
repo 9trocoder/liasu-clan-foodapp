@@ -1,5 +1,6 @@
 import React from "react";
 import BottomNav from "../../components/BottomNav";
+import FoodTray from "../../components/FoodTray";
 import HomeNav from "../../components/HomeNav";
 import {
   foodNotActive,
@@ -41,6 +42,7 @@ function Homepage() {
           </div>
         </div>
       </div>
+      <FoodTray suggestion="Suggestions for you" suggestionlabel="Nigeria Food" />
       <BottomNav
         homeIcon={homeActive}
         foodIcon={foodNotActive}
