@@ -5,7 +5,7 @@ import { email, facebook, password } from "../../utility/tools";
 import "./LoginPage.css";
 
 function LoginPage() {
-    let navigate = useNavigate();
+  let navigate = useNavigate();
   return (
     <div className="loginpage__cnt">
       <p className="loginpage__title">
@@ -17,15 +17,17 @@ function LoginPage() {
       <div className="loginpage__forgotpassword">
         <p className="loginpage__forgot-pass">Forgot Password?</p>
       </div>
-      <button className="general__btn">Sign In</button>
-      <button className="social__signin">
+      <button onClick={() => navigate("/home")} className="general__btn">
+        Sign In
+      </button>
+      <button onClick={() => navigate("/home")} className="social__signin">
         {facebook} Sign in with Facebook
       </button>
       <div onClick={() => navigate("/register")} className="donthaveaccount">
         <p>
           Don't have an account? <span> Register</span>
         </p>
-      </div>  
+      </div>
     </div>
   );
 }

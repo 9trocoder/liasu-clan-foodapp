@@ -22,8 +22,8 @@ function RegisterPage() {
       <Input labelName="Email" icon={email} />
       <Input labelName="Phone" icon={phone} />
       <Input labelName="Password" icon={password} />
-      <button className="general__btn">Register</button>
-      <button className="social__signin">
+      <button onClick={() => navigate("/home")  }className="general__btn">Register</button>
+      <button onClick={() => navigate("/home")} className="social__signin">
         {facebook} Sign up with Facebook
       </button>
       <div onClick={() => navigate("/")} className="donthaveaccount">
