@@ -9,6 +9,9 @@ function LoginPage() {
         <p className="loginpage__title">Login to <br />find the best food</p>
         <Input labelName="Email" icon={email} />
         <Input labelName="Password" icon={password} />
+        <div className="loginpage__forgotpassword">
+            <p className="loginpage__forgot-pass">Forgot Password?</p>
+        </div>
     </div>
   )
 }
