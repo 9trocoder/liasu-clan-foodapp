@@ -204,16 +204,31 @@
   border-radius: 5px;
 }
 
-
 .foodtray__title {
-    padding-top: 12px;
-    font-size: 14px;
-    font-weight: 600;
+  padding-top: 12px;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .foodtray__paragraph {
-    font-size: 10px;
-    color: #757575;
-    padding-top: 7px;
-    padding-bottom: 10px;
+  font-size: 10px;
+  color: #757575;
+  padding-top: 7px;
+  padding-bottom: 10px;
+}
+
+.foodtray__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.foodtray__bottom-item {
+  display: flex;
+  align-items: center;
+  gap: 0.1rem;
+}
+
+.foodtray__bottom-item p {
+  font-size: 11px;
 }
