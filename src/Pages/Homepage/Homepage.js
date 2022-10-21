@@ -1,8 +1,13 @@
 import React from 'react'
+import BottomNav from '../../components/BottomNav'
+import { foodNotActive, homeActive, orderNotActive, profileNotActive } from '../../utility/tools'
 
 function Homepage() {
   return (
-    <div>Homepage</div>
+    <>
+    
+        <BottomNav homeIcon={homeActive} foodIcon={foodNotActive} orderIcon={orderNotActive} profileIcon={profileNotActive} />
+    </>
   )
 }
 
