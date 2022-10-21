@@ -14,6 +14,9 @@ function LoginPage() {
         </div>
         <button className="general__btn">Sign In</button>
         <button className="social__signin">{facebook} Sign up with Facebook</button>
+        <div className="donthaveaccount">
+            <p>Don't have an account? <span>Register</span></p>
+        </div>
     </div>
   )
 }
