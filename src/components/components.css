@@ -123,36 +123,37 @@
 }
 
 .homenav {
-    top: 0;
-    left: 0;
-    right: 0;
-    padding: 10px 16px;
-    position: fixed;
-    width: 100%;
-    display: flex;
-    gap: 14px;
-    border-bottom: 0.1px solid rgba(63, 62, 62, 0.315);
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px 16px;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  gap: 14px;
+  border-bottom: 0.1px solid rgba(63, 62, 62, 0.315);
 }
 
 .homenav img {
-    width: 35px;
-    height: 35px;
-    object-fit: cover;
-    border-radius: 9999px;
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+  border-radius: 9999px;
 }
 
 .homenav input {
-    width: 100%;
-    font-family: inherit;
-    font-size: 12px;
-    border: 1px solid #757575;
-    background-color: #f5f5f7;
-    outline: none;
-    border-radius: 9999px;
-    padding: 10px 14px;
-    color: #111;
+  width: 100%;
+  font-family: inherit;
+  font-size: 12px;
+  border: 1px solid #757575;
+  background-color: #f5f5f7;
+  outline: none;
+  border-radius: 9999px;
+  padding: 10px 14px;
+  color: #111;
 }
 
-.homenav input:hover, .homenav input:focus {
-    background-color: #fff;
+.homenav input:hover,
+.homenav input:focus {
+  background-color: #fff;
 }

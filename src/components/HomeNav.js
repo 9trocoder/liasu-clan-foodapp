@@ -1,6 +1,6 @@
 import React from "react";
 import profileImage from "../assets/images/logo.png";
-import "./components.css"
+import "./components.css";
 
 function HomeNav() {
   return (
