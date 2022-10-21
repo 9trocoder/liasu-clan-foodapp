@@ -9,7 +9,7 @@ function Input({ icon, labelName, handleChange }) {
         <div className="input__icon">{icon}</div>
       </div>
 
-      <input inputMode="email" onChange={handleChange} />
+      <input  onChange={handleChange} />
     </div>
   );
 }

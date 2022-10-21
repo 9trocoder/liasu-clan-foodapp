@@ -1,6 +1,7 @@
 /* Input */
 .input__container {
   width: 100%;
+  margin-bottom: 16px;
 }
 
 .input__container-top {
