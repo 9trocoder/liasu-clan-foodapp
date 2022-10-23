@@ -1,3 +1,26 @@
+.fooddetails__cnt-top {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .fooddetails__cnt-top::-webkit-scrollbar {
+    display: none;
+  }
+  
+  
+  .fooddetails__cnt-top img {
+    width: 230px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
 .fooddetails__itemtop {
   padding: 16px 16px;
   display: flex;
