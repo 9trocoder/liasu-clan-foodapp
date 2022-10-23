@@ -37,9 +37,6 @@
   font-weight: 400;
 }
 
-.fooddetails__restaurant {
-}
-
 .fooddetails__restaurant-left {
   display: flex;
   align-items: center;
@@ -152,11 +149,17 @@
   justify-content: center;
 }
 
-.fooddetails__bottomstack p {
+.place__price {
   display: flex;
   text-align: center;
   align-items: center;
   justify-content: center;
+  font-size: 12px;
+  font-weight: 700;
+  gap: 10px;
+}
+
+.fooddetails__bottomstack p {
   font-size: 12px;
   font-weight: 700;
 }

@@ -1,6 +1,16 @@
 import React from "react";
 import Extranav from "../../components/Extranav";
-import { delivery, heart, rating, stars, time } from "../../utility/tools";
+import {
+  anyfood,
+  bakso,
+  cacke,
+  delivery,
+  heart,
+  plate_icon,
+  rating,
+  stars,
+  time,
+} from "../../utility/tools";
 import "./FoodDetails.css";
 
 function FoodDetails() {
@@ -87,7 +97,10 @@ function FoodDetails() {
         </div>
 
         <div className="fooddetails__bottomstack">
-          <p>$100.00</p>
+          <div className="place__price">
+            {plate_icon} <p>$100.00</p>
+          </div>
+
           <div className="place__order">
             <p>Place Order</p>
             <div className="place__order-num">
