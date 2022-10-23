@@ -58,12 +58,14 @@
   font-size: 11px;
   font-weight: 500 !important;
   color: #111111 !important;
+  text-decoration: none !important;
 }
 
 .fooddetails__restaurant-left p {
   font-size: 11px;
   font-weight: 400;
   color: #757575;
+  text-decoration: line-through;
 }
 
 .fooddetails__features {
